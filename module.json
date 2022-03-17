@@ -1,0 +1,15 @@
+{
+    "name": "PublicAPI",
+    "alias": "publicapi",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\PublicAPI\\Providers\\PublicAPIServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "helpers.php"
+    ],
+    "requires": []
+}

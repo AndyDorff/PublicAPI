@@ -1,0 +1,28 @@
+{
+    "name": "aniart/publicapi",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andy Dorff",
+            "email": "andrew.dorofieiev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\PublicAPI\\Providers\\PublicAPIServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PublicAPI\\": ""
+        }
+    },
+    "require": {
+        "tymon/jwt-auth": "^1.0"
+    }
+}
